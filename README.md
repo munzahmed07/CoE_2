@@ -80,7 +80,4 @@ We utilize **Post-Training Quantization (PTQ)** to convert weights from Float32 
 * **Online-Adapted ADE:** 0.72m (**15% Improvement**)
 * **Model Size:** Reduced from 1.2MB (Float32) to **0.3MB (Int8)**.
 
-## 👤 Author
-**[Your Name]**
-*Final Year Engineering Student, AI & ML*
-*Osmania University*
+
