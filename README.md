@@ -75,9 +75,12 @@ We utilize **Post-Training Quantization (PTQ)** to convert weights from Float32 
     python quantize_keras.py
     ```
 
-## 📊 Results (Simulated)
-* **Baseline ADE (Average Displacement Error):** 0.85m
-* **Online-Adapted ADE:** 0.72m (**15% Improvement**)
-* **Model Size:** Reduced from 1.2MB (Float32) to **0.3MB (Int8)**.
+## 📊 Results
+The online adaptation module significantly reduces prediction error by adapting to specific driving behaviors in real-time.
 
+![Trajectory Result](prediction_sample_7495.png)
+
+* **Baseline ADE:** 1.13m | **FDE:** 2.51m
+* **Online-Adapted ADE:** 0.95m | **FDE:** 2.21m
+* **Improvement:** ~16% reduction in displacement error.
 
