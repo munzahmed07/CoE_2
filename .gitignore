@@ -1,0 +1,16 @@
+# Ignore ALL data
+data/
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore hidden system files
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+
+# Ignore heavy artifacts
+models/
+plots/
+results/
